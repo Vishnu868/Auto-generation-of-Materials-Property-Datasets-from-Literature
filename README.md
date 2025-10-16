@@ -1,5 +1,4 @@
 # Auto-generation-of-Materials-Property-Datasets-from-Literature
-# 🧠 TABLE_EXTRACTION — ML Pipeline for Automated Table Detection & Extraction
 
 > End-to-end Machine Learning & OCR pipeline that extracts structured tables from PDFs and images.  
 > Built using **PaddleOCR**, **HuggingFace Table Transformer**, and optional **LLM post-processing** for structure refinement and accuracy improvement.
@@ -32,7 +31,7 @@ It combines **Computer Vision**, **Deep Learning**, and **Language Models** to t
 
 ## 🧱 Project Structure
 
-TABLE_EXTRACTION/
+## TABLE_EXTRACTION/
 ├── input/ # Input PDFs or images
 ├── output/ # Extracted tables (CSV/JSON)
 ├── src/
@@ -52,9 +51,6 @@ TABLE_EXTRACTION/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
-yaml
-Copy code
 
 ---
 
@@ -79,5 +75,3 @@ source .venv/bin/activate       # Linux/macOS
 # 3️⃣ Install dependencies
 pip install -r requirements.txt
 
-# 4️⃣ Verify poppler installation
-# (required for pdf2image)
