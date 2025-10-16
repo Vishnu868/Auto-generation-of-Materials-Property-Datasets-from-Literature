@@ -1,0 +1,6 @@
+ClassAtrributes,Datatype,ClassAtrributes,Datatype
+Value,string,units,string
+specifier,string,compound,model
+currentvalue,string,currentunits,string
+cyclevalue,string,cycleunits,string
+parsers,parserlists,,

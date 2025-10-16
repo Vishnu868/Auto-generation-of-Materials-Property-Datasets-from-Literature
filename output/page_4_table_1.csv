@@ -1,0 +1,7 @@
+Elements,Description,Elemetns,Description
+R (Regex),Match text with regular expressio,T (Tag),Match tags
+W (Word),Match case-sensitive token text,I (IWord),Match case-insensitive token text
+Any,Match any single token,H (Hide),Ignore the matched tokens
+Not ,Match only if not followed by some text,FollowedBy,Match only if followed by some text
+ZeroOrMore,Match zero or more of the expressions,OneOrMore,Match one or more of the expressions
+Optional,Match if it exists,SkipTo,Skips to the next occurrence of text

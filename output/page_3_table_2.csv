@@ -1,0 +1,11 @@
+property,parseexpressionsofunits(above)andspecifier(below)
+capacity,"W(‘mA’) + W(‘h’) + (W(‘/’) + W(‘g’)) | R(‘^k?g[\—]1$’) | R(‘c?m[\—]3’)
+Optional(I(‘theoretical’) | I(‘specific’)) + (I(‘capacity’) | I(‘capacities’))"
+Conductivity,"R(‘^m?S$’) + R(‘^ c?m[\—]\d+$’)
+Optional(I(‘electronic’) | I(‘electrical’)) + (I(‘conductivity’) | I(‘conductivities’))"
+Coulombic Efficiency,"W(‘%’)
+I(‘coulombic’) + Optional(I(‘efficiency’))"
+Energy ,"(W(‘Wh’) + R(r‘^(k?g|m?(L|l))[\—]1$’))
+I(‘energy’) | I(‘energies’)+Optional(’density’)"
+Voltage,"R(‘^m?V$’)+ R(‘^v(s(.)?|ersus)$’) + Optional(R(‘Li|Na|Ag|K’)) + Not(R(‘/s’))
+Optional(I(‘electronic’) | I(‘electrical’)) + (I(‘voltage’) | I(‘potential’))"

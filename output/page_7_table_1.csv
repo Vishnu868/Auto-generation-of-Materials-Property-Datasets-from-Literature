@@ -1,0 +1,18 @@
+Data,Description,Datatype
+Property,Material property types,String
+Name,Chemical compound names,String
+Extracted_name,Normalised chemical name,List of dictionaries
+Raw_value,Extracted value from text,String
+Raw_unit,Extracted unit from text,String
+Value,Normalised value by CDE,Float
+Unit,Normalised unit by CDE,String
+Tag,Text or calculated data,String
+Info,Additional information,List of dictionaries
+Type,Type of materials,String
+Specifier,Specifier of property,String
+DOI,Source article DOI,String
+Journal,Published journal,String
+Date,Published date,String
+Title,Source article title,String
+Correctness,Correctness of data,String
+Warning,Warning,String

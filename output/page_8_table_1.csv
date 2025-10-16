@@ -1,0 +1,7 @@
+Properties,Precision,Recall,F-Score
+Capacity,83.30%,63.20%,71.90%
+Voltage,79.00%,51.90%,62.60%
+Conductivity,76.00%,47.10%,58.20%
+Coulombic Efficency,77.60%,63.80%,70.00%
+Energy,75.50%,66.70%,70.80%
+Overall,80.00%,59.10%,68.00%

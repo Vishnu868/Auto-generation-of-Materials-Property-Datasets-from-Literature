@@ -1,0 +1,208 @@
+{
+  "page_1": {
+    "image_path": "temp\\page_1_processed.png",
+    "tables": [],
+    "skipped": true,
+    "reason": "No tables with confidence >= 0.7"
+  },
+  "page_2": {
+    "image_path": "temp\\page_2_processed.png",
+    "tables": [],
+    "skipped": true,
+    "reason": "No tables with confidence >= 0.7"
+  },
+  "page_3": {
+    "image_path": "temp\\page_3_processed.png",
+    "tables": [
+      {
+        "table_id": 1,
+        "bbox": [
+          208.19,
+          63.01,
+          446.08,
+          159.11
+        ],
+        "confidence": 0.999376118183136,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_3_table_1.csv"
+      },
+      {
+        "table_id": 2,
+        "bbox": [
+          208.36,
+          222.94,
+          583.1,
+          386.04
+        ],
+        "confidence": 0.9995602965354919,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_3_table_2.csv"
+      }
+    ],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_4": {
+    "image_path": "temp\\page_4_processed.png",
+    "tables": [
+      {
+        "table_id": 1,
+        "bbox": [
+          208.3,
+          62.75,
+          632.45,
+          164.54
+        ],
+        "confidence": 0.9998296499252319,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_4_table_1.csv"
+      }
+    ],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_5": {
+    "image_path": "temp\\page_5_processed.png",
+    "tables": [],
+    "skipped": true,
+    "reason": "No tables with confidence >= 0.7"
+  },
+  "page_6": {
+    "image_path": "temp\\page_6_processed.png",
+    "tables": [],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_7": {
+    "image_path": "temp\\page_7_processed.png",
+    "tables": [
+      {
+        "table_id": 1,
+        "bbox": [
+          208.08,
+          62.29,
+          469.78,
+          332.29
+        ],
+        "confidence": 0.9998378753662109,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_7_table_1.csv"
+      }
+    ],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_8": {
+    "image_path": "temp\\page_8_processed.png",
+    "tables": [
+      {
+        "table_id": 1,
+        "bbox": [
+          207.43,
+          241.72,
+          414.83,
+          314.32
+        ],
+        "confidence": 0.9980708956718445,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_8_table_1.csv"
+      },
+      {
+        "table_id": 2,
+        "bbox": [
+          206.36,
+          379.23,
+          446.13,
+          502.13
+        ],
+        "confidence": 0.9977332353591919,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_8_table_2.csv"
+      },
+      {
+        "table_id": 3,
+        "bbox": [
+          208.18,
+          61.95,
+          443.61,
+          172.55
+        ],
+        "confidence": 0.9988883137702942,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_8_table_3.csv"
+      }
+    ],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_9": {
+    "image_path": "temp\\page_9_processed.png",
+    "tables": [
+      {
+        "table_id": 1,
+        "bbox": [
+          206.44,
+          62.03,
+          447.55,
+          173.61
+        ],
+        "confidence": 0.9997653365135193,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_9_table_1.csv"
+      }
+    ],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_10": {
+    "image_path": "temp\\page_10_processed.png",
+    "tables": [],
+    "skipped": true,
+    "reason": "No tables with confidence >= 0.7"
+  },
+  "page_11": {
+    "image_path": "temp\\page_11_processed.png",
+    "tables": [
+      {
+        "table_id": 1,
+        "bbox": [
+          203.05,
+          650.96,
+          726.79,
+          951.71
+        ],
+        "confidence": 0.7932266592979431,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_11_table_1.csv"
+      },
+      {
+        "table_id": 2,
+        "bbox": [
+          230.71,
+          401.96,
+          730.15,
+          951.3
+        ],
+        "confidence": 0.7038384079933167,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_11_table_2.csv"
+      }
+    ],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_12": {
+    "image_path": "temp\\page_12_processed.png",
+    "tables": [
+      {
+        "table_id": 1,
+        "bbox": [
+          194.15,
+          224.82,
+          725.09,
+          914.45
+        ],
+        "confidence": 0.8639515042304993,
+        "csv_path": "E:\\SEM_5\\DATADRIVEN\\Project\\table_extraction\\output\\page_12_table_1.csv"
+      }
+    ],
+    "skipped": false,
+    "reason": ""
+  },
+  "page_13": {
+    "image_path": "temp\\page_13_processed.png",
+    "tables": [],
+    "skipped": true,
+    "reason": "No tables with confidence >= 0.7"
+  }
+}
